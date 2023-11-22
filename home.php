@@ -42,19 +42,20 @@ if(isset($_POST['add_to_cart'])){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+<body class="homebody">
    
 <?php include 'header.php'; ?>
 
 <section class="home">
 
    <div class="content">
-      <h3>Hand Picked Book to your door.</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
-      <a href="about.php" class="white-btn">discover more</a>
+      <h3>Book Haven</h3>
+      <h2>Explore the World of Stories</h2>
+      <p> Where Every Page Takes You on a Journey</p>
+      <a href="shop.php" class="white-btn">discover more</a>
    </div>
 
 </section>
@@ -94,29 +95,12 @@ if(isset($_POST['add_to_cart'])){
 
 </section>
 
-<section class="about">
-
-   <div class="flex">
-
-      <div class="image">
-         <img src="images/about-img.jpg" alt="">
-      </div>
-
-      <div class="content">
-         <h3>about us</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
-         <a href="about.php" class="btn">read more</a>
-      </div>
-
-   </div>
-
-</section>
 
 <section class="home-contact">
 
    <div class="content">
       <h3>have any questions?</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
+      <p>Curious about a book or need assistance? We're here to help!</p>
       <a href="contact.php" class="white-btn">contact us</a>
    </div>
 

@@ -46,11 +46,8 @@ if(isset($_POST['submit'])){
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>login</title>
 
-   <!-- font awesome cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
 
-   <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -67,7 +64,7 @@ if(isset($message)){
    }
 }
 ?>
-   
+
 <div class="form-container">
 
    <form action="" method="post">
@@ -76,9 +73,10 @@ if(isset($message)){
       <input type="password" name="password" placeholder="enter your password" required class="box">
       <input type="submit" name="submit" value="login now" class="btn">
       <p>don't have an account? <a href="register.php">register now</a></p>
+      
    </form>
 
 </div>
-
+ 
 </body>
 </html>
